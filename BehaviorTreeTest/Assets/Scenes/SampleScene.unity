@@ -705,7 +705,7 @@ GameObject:
   - component: {fileID: 806909783}
   - component: {fileID: 806909782}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: "NPC\u5BF9\u8BDDText"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1699,7 +1699,7 @@ MonoBehaviour:
   resetValuesOnRestart: 0
   externalBehavior: {fileID: 11400000, guid: 45200679822024701ba274e6128446e6, type: 2}
   mBehaviorSource:
-    behaviorName: Behavior
+    behaviorName: "\u5143\u6C14\u7CFB"
     behaviorDescription: HappyTree
     mTaskData:
       types: []
@@ -1726,7 +1726,7 @@ MonoBehaviour:
         on, come on"},{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"come
         here,let me see you clearly"},{"Type":"BehaviorDesigner.Runtime.SharedString","Name":null,"StringmValue":"come
         here, let\u2018s talking"}],"SharedStringstoreResult":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":"NPCIdleString","IsShared":true}},{"Type":"BehaviorDesigner.Runtime.Tasks.Wait","NodeData":{"Offset":"(10.5021591,132.997864)"},"ID":18,"Name":"Wait","Instant":true,"SharedFloatwaitTime":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":0},"SharedBoolrandomWait":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":null,"BooleanmValue":true},"SharedFloatrandomWaitMin":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":2},"SharedFloatrandomWaitMax":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":null,"SinglemValue":5}},{"Type":"ShowNPCMessage","NodeData":{"Offset":"(196.79129,133.605591)"},"ID":19,"Name":"Show
-        NPC Message","Instant":true,"TextMeshProUGUImyText":6,"SharedStringshowText":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":"NPCIdleString","IsShared":true}}]}]}}'
+        NPC Message","Instant":true,"TextMeshProUGUImyText":6,"SharedStringshowText":{"Type":"BehaviorDesigner.Runtime.SharedString","Name":"NPCIdleString","IsShared":true}}]}]},"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedGameObject","Name":"player","IsShared":true,"GameObjectmValue":7}]}'
       fieldSerializationData:
         typeName: []
         fieldNameHash: 
@@ -1740,6 +1740,7 @@ MonoBehaviour:
         - {fileID: 2020396035}
         - {fileID: 806909782}
         - {fileID: 806909782}
+        - {fileID: 2020396035}
         byteData: 
         byteDataArray: 
       Version: 1.7.7
